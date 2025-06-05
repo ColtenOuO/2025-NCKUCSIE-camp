@@ -10,4 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeCarousel();
     initializeAccordion();
     initializeMap();
+
+    const dajout = document.getElementById("dajout");
+
+    dajout.addEventListener('click', () => {
+        const url = 'https://rape-gaorui.chih-hao.xyz'
+        window.location.href = url
+    })
+
 });
